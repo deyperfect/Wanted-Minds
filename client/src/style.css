@@ -56,7 +56,7 @@ h1 {
             rgba(22, 50, 66, 0.71),
             rgba(22, 50, 66, 0.71)
         ),
-        url(images/backdrop.jpeg);
+        url(/images/backdrop.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -278,7 +278,7 @@ h1 {
     margin-top: 40px;
 } */
 
-/* #hero img {
+#hero img {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -287,11 +287,11 @@ h1 {
     z-index: 1;
     border-radius: 25px;
 
-} */
+}
 
-/* #hero #hero-text {
+#hero #hero-text {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -305,7 +305,7 @@ h1 {
     text-shadow:
         0 10px 10px rgba(0,0,0,0.6),
         0 10px 20px rgba(0, 0, 0, 0.4);
-} */
+}
 
 /* #about{
     width: 100%;
