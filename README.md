@@ -1,43 +1,78 @@
-# Wanted Minds
-
-A website for **Wanted Minds**, a fictional private detective agency based in downtown Tokyo. The site presents the agency’s services, team, and a contact form.
+# Wanted Minds 🕵️
 
 > *The minds you want when answers are hard to find.*
 
-## Live Site
+A sleek, modern website for **Wanted Minds**, a fictional private detective agency operating in the heart of downtown Tokyo. This single-page React application showcases the agency's services, team members, and provides a contact interface.
 
-**[https://deyperfect.github.io/Wanted-Minds/](https://deyperfect.github.io/Wanted-Minds/)**
+![React](https://img.shields.io/badge/React-19.2.0-61dafb?logo=react)
+![Vite](https://img.shields.io/badge/Vite-7.3.1-646cff?logo=vite)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.8-7952b3?logo=bootstrap)
+
+## About the Project
+
+Wanted Minds is a private detective agency specializing in:
+- **Crime Scene Investigation** - Thorough methodical investigations with strict protocols
+- **Missing Persons Investigation** - Precision tracking and intelligence gathering
+- **Digital Crime Analysis** - Electronic data examination and digital footprint analysis
+
+The website features a mysterious, professional aesthetic that reflects the agency's work in the shadows, combining sharp intuition with advanced technology.
+
+## Live Demo
+
+**[View Live Site](https://deyperfect.github.io/Wanted-Minds/)**
 
 ## Features
 
-- **Home** — Hero section, agency intro (“In the Shadows”), and service overview
-- **Services** — Crime scene investigation, missing persons, and digital crime analysis
-- **Team** — Profiles for Kai Hyoudo, Sae Kirishima, and Rin Kageyama
-- **Contact** — Form for confidential inquiries
+- **Responsive Design** - Fully responsive across all devices using React Bootstrap
+- **Single Page Application** - Smooth navigation with React Router
+- **Team Showcase** - Meet the three detectives: Kai Hyoudo, Sae Kirishima, and Rin Kageyama
+- **Contact Form** - Easy way for potential clients to reach out
+- **Modern UI/UX** - Clean, professional design with custom styling
+- **Fast Performance** - Built with Vite for optimal loading speeds
 
-## Tech Stack
+## Built With
 
-- **React** with **Vite**
-- **React Router** for client-side routing
-- **React Bootstrap** and **Bootstrap 5** for layout and components
-- **React Bootstrap Icons** for icons
+- **[React](https://react.dev/)** (v19.2.0) - UI library
+- **[Vite](https://vitejs.dev/)** (v7.3.1) - Build tool and dev server
+- **[React Router](https://reactrouter.com/)** (v7.13.0) - Client-side routing
+- **[React Bootstrap](https://react-bootstrap.github.io/)** (v2.10.10) - UI components
+- **[Bootstrap](https://getbootstrap.com/)** (v5.3.8) - CSS framework
+- **[React Bootstrap Icons](https://www.npmjs.com/package/react-bootstrap-icons)** - Icon library
 
 ## Project Structure
 
 ```
 Wanted-Minds/
-├── client/                 # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── components/      # AppNavbar, AppFooter
-│   │   ├── pages/          # Home, Team, Contact, Error
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── style.css
-│   ├── index.html
-│   ├── package.json
-│   └── vite.config.js
-└── README.md
+├── public/
+│   └── images/           # Project images
+├── src/
+│   ├── assets/           # Static assets
+│   ├── components/       # Reusable components
+│   │   ├── AppNavbar.jsx
+│   │   └── AppFooter.jsx
+│   ├── pages/            # Page components
+│   │   ├── Home.jsx      # Landing page
+│   │   ├── Team.jsx      # Team showcase
+│   │   ├── Contact.jsx   # Contact form
+│   │   └── Error.jsx     # 404 page
+│   ├── App.jsx           # Main app component
+│   ├── main.jsx          # Entry point
+│   └── style.css         # Global styles
+├── dist/                 # Build output
+├── index.html            # HTML template
+├── package.json          # Dependencies and scripts
+└── vite.config.js        # Vite configuration
 ```
 
+## Author
 
+**deyperfect**
+
+- GitHub: [@deyperfect](https://github.com/deyperfect)
+- Project Link: [https://github.com/deyperfect/Wanted-Minds](https://github.com/deyperfect/Wanted-Minds)
+
+- Design inspiration from modern detective noir aesthetics
+- Character names use Japanese naming conventions
+- Built as a portfolio/practice project showcasing React and modern web development
+
+---
