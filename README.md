@@ -45,6 +45,7 @@ The website features a mysterious, professional aesthetic that reflects the agen
 Wanted-Minds/
 ├── public/
 │   └── images/           # Project images
+│   └── fonts/            # Project fonts
 ├── src/
 │   ├── assets/           # Static assets
 │   ├── components/       # Reusable components
@@ -57,7 +58,8 @@ Wanted-Minds/
 │   │   └── Error.jsx     # 404 page
 │   ├── App.jsx           # Main app component
 │   ├── main.jsx          # Entry point
-│   └── style.css         # Global styles
+│   └── style.css         # Global CSS
+│   └── style.min.css     # Minified CSS
 ├── dist/                 # Build output
 ├── index.html            # HTML template
 ├── package.json          # Dependencies and scripts
