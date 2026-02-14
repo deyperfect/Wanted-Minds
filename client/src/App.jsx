@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import AppNavbar from './components/AppNavbar'; 
 import AppFooter from './components/AppFooter';
 import Home from './pages/Home';
@@ -10,8 +10,8 @@ import './style.css';
 
 function App() {
   return (
-    <Router>
-      
+
+    <>  
       <AppNavbar /> 
       
       <Container>
@@ -25,7 +25,8 @@ function App() {
       </Container>
       
       <AppFooter />
-    </Router>
+    </>
+    
   );
 }
 

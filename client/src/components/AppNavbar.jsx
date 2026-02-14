@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { List } from 'react-bootstrap-icons';
 
+
 export default function AppNavbar() {
   return (
     <Navbar expand="lg" sticky="top">
@@ -9,7 +10,7 @@ export default function AppNavbar() {
         {/* 'as={Link}' allows the brand to act as a Router Link */}
         <Navbar.Brand as={Link} to="/">
           <img
-            src="/images/logo.png"
+            src={`${import.meta.env.BASE_URL}images/logo.png`}
             className="brand-logo d-inline-block align-top"
             alt="Wanted Minds Logo"
 

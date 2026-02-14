@@ -80,7 +80,7 @@ body {
   /* Background settings */
   background:
     linear-gradient(rgba(22, 50, 66, 0.75), rgba(22, 50, 66, 0.75)),
-    url(/images/backdrop.jpeg) no-repeat center center;
+    url('/Wanted-Minds/images/backdrop.jpeg') no-repeat center center;
   background-size: cover;
 
   /* Centering logic */
