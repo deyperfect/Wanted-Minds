@@ -1,3 +1,54 @@
+/* --- POPPINS --- */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  /* Use the full path including the project subfolder */
+  src: url('/Wanted-Minds/fonts/poppins-v24-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/Wanted-Minds/fonts/poppins-v24-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/Wanted-Minds/fonts/poppins-v24-latin-700.woff2') format('woff2');
+}
+
+/* --- QUICKSAND --- */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/Wanted-Minds/fonts/quicksand-v37-latin-300.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/Wanted-Minds/fonts/quicksand-v37-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/Wanted-Minds/fonts/quicksand-v37-latin-700.woff2') format('woff2');
+}
+
 :root {
   --spectrum-gradient: linear-gradient(45deg, #80cae9, #3f6d87, #fc3946);
   --dark-navy: #163242;
@@ -12,7 +63,7 @@
   padding: 0;
 }
 
-body {
+html body {
   font-family: "Poppins", sans-serif;
   color: var(--dark-navy);
   line-height: 1.6;
