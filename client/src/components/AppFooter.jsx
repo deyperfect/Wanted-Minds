@@ -1,4 +1,4 @@
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,34 +10,40 @@ export default function Footer() {
   ];
 
   return (
-    <Container fluid className="container-lg">
-        <footer>
-        <div className="upper">
-            
-            <div className="address">
-            <p id="line1">4-12-7 Aoyama-Cyber,</p>
-            <p id="line2">Minato-ku, Tokyo 107-0062</p>
-            </div>
+    <Container className="footer-container container-lg">
+      <footer>
+        <div className="upper text-center">
+          <div className="address-section">
+            <p className="address-label">OUR LOCATION</p>
+            <address className="address-details">
+              4-12-7 Aoyama-Cyber,<br />
+              Minato-ku, Tokyo 107-0062
+            </address>
+          </div>
         </div>
         
-        <hr />
+        <hr className="footer-divider" />
         
-        <div className="bottom">
-            <p>&copy; {currentYear} Wanted Minds | All Rights Reserved</p>
-            <div className="socials">
+        <div className="bottom d-flex flex-column flex-md-row justify-content-between align-items-center">
+          <div className="brand">
+            <p>&copy; {currentYear} Wanted Minds <span className="d-none d-sm-inline">| All Rights Reserved</span></p>
+          </div>
+          
+          <div className="socials">
             {socialLinks.map((social, index) => (
-                <a 
+              <a 
                 key={index} 
                 href={social.url} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                >
+                className="social-icon"
+              >
                 <img src={social.icon} alt={`${social.name} Icon`} />
-                </a>
+              </a>
             ))}
-            </div>
+          </div>
         </div>
-        </footer>
+      </footer>
     </Container>
   );
 };

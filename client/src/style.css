@@ -147,29 +147,98 @@ p {
 .service {
   color: var(--white);
   font-weight: 200;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* --- 5. FOOTER --- */
 footer {
-  font-size: 13px;
+  font-size: 0.8em;
   text-align: center;
-  padding: 20px 0;
 }
 
 footer hr {
   color: #4a4a4a;
-  margin: 1rem 0;
+  margin: 1em 0;
 }
 
 footer .bottom {
-  font-size: 1.2em;
+  font-size: 1.5em;
   display: flex;
   justify-content: space-between;
-  margin: 0 1rem;
+  margin-bottom: 0.7em;
 }
 
+.brand p {
+    margin: 0;
+}
+
+footer .socials {
+    display: flex;
+    gap: 0.3em;
+}
+
+
 footer img {
-  height: 2em;
+  width: 1.5em;
+}
+
+footer span {
+    display: none;
+}
+/* Footer Styles */
+.footer-container {
+  background-color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.address-section {
+  margin-top: 40px;
+  margin-bottom: 20px;
+
+}
+
+.address-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+  color: #3f6d87; 
+  margin-bottom: 5px !important;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.address-details {
+  font-style: normal;
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  color: #163242;
+  line-height: 1.5;
+}
+
+.footer-divider {
+  border-top: 1px solid #e9ecef;
+  margin: 20px 0;
+  opacity: 1;
+}
+
+.social-icon img {
+  max-width: 24px;
+  margin-left: 15px;
+  transition: opacity 0.3s ease;
+}
+
+.social-icon:hover img {
+  opacity: 0.7;
+}
+
+/* Fix for mobile view to stack the brand and socials */
+@media (max-width: 767px) {
+  .bottom {
+    gap: 15px;
+  }
+  .social-icon img {
+    margin: 0 10px;
+  }
 }
 
 /* --- MEDIA QUERIES --- */
@@ -234,4 +303,8 @@ footer img {
   .navbar img {
     margin-left: 0.5em;
   }
+
+  footer span {
+    display: inline-block;
+}
 }
