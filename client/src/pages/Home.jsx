@@ -21,6 +21,10 @@ export default function Home() {
                 answers are rarely obvious. Focused on crime scene investigation, missing persons, and digital
                 crime, Wanted Minds blends sharp intuition with advanced technology.
               </p>
+
+              <p>
+                Our agency is built on the belief that every mystery leaves a footprint, whether physical or digital. We have refined a unique methodology that blends sharp, human intuition with the cutting edge of advanced technology. Our investigators are as comfortable scouring a physical crime scene for microscopic evidence as they are navigating the complex layers of the encrypted web to trace a digital trail.
+              </p>
               
             </div>
           </div>
@@ -29,29 +33,30 @@ export default function Home() {
 
       <section id="services">
         <h2 id="core">What We Do</h2>
-        <div className="row" id="container2">
-          <div className="cardx col-7 d-flex flex-column mx-auto">
-            <h3 className="service-title">Crime Scene Investigation</h3>
-            <p className="service">We conduct thorough and methodical crime scene investigations to uncover the truth hidden within the details. Our team carefully documents, collects, and analyzes physical evidence, ensuring that nothing is overlooked. Every step follows strict investigative protocols to preserve integrity and accuracy.</p>
+        <div className="row justify-content-lg-between justify-content-center g-4 g-lg-5" id="container2">
+
+          <div className="col-11 col-lg-4 d-flex">
+            <div className="cardx flex-column w-100">
+              <h3 className="service-title">Crime Scene Investigation</h3>
+              <p className="service">We conduct thorough and methodical crime scene investigations to uncover the truth hidden within the details. Our team carefully documents, collects, and analyzes physical evidence, ensuring that nothing is overlooked. Every step follows strict investigative protocols to preserve integrity and accuracy.</p>
+            </div>
           </div>
-        </div>
 
-        <div className="row" id="container2">
-          <div className="cardx col-7 d-flex flex-column mx-auto">
-            <h3 className="service-title">Missing Persons Investigation</h3>
-            <p className="service">When someone goes missing, time and precision matter. We specialize in tracing leads, verifying information, and uncovering patterns that others may miss. Through interviews, surveillance, and intelligence gathering, we work relentlessly to locate missing individuals and provide answers to families seeking clarity and closure.</p>
+          <div className="col-11 col-lg-4 d-flex">
+            <div className="cardx flex-column w-100">
+              <h3 className="service-title">Missing Persons Investigation</h3>
+              <p className="service">When someone goes missing, time and precision matter. We specialize in tracing leads, verifying information, and uncovering patterns that others may miss. Through interviews, surveillance, and intelligence gathering, we work relentlessly to locate missing individuals and provide answers to families seeking clarity and closure.</p>
+            </div>
           </div>
-        </div>
 
-        <div className="row" id="container2">
-          <div className="cardx col-7 d-flex flex-column mx-auto">
-            <h3 className="service-title">Digital Crime Analysis</h3>
-            <p className="service">In today&apos;s digital world, crimes often leave traces online. Our digital crime analysis service examines electronic data, online activity, and digital footprints to uncover hidden connections and evidence. From data recovery to behavioral analysis, we transform complex digital information into clear, actionable insights.</p>
+          <div className="col-11 col-lg-4 d-flex">
+            <div className="cardx flex-column w-100">
+              <h3 className="service-title">Digital Crime Analysis</h3>
+              <p className="service">In today&apos;s digital world, crimes often leave traces online. Our digital crime analysis service examines electronic data, online activity, and digital footprints to uncover hidden connections and evidence. From data recovery to behavioral analysis, we transform complex digital information into clear, actionable insights.</p>
+            </div>
           </div>
+          
         </div>
-        
-
-
 
       </section>
     </>

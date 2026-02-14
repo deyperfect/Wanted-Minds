@@ -1,9 +1,10 @@
 import { Link, NavLink } from 'react-router-dom';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { List } from 'react-bootstrap-icons';
 
 export default function AppNavbar() {
   return (
-    <Navbar variant="dark" expand="lg" sticky="top">
+    <Navbar expand="lg" sticky="top">
       <Container fluid className="container-lg">
         {/* 'as={Link}' allows the brand to act as a Router Link */}
         <Navbar.Brand as={Link} to="/">
@@ -15,7 +16,11 @@ export default function AppNavbar() {
           />
         </Navbar.Brand>
         
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler">
+          <List className="list" /> 
+        </Navbar.Toggle>
+
+        
         
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
