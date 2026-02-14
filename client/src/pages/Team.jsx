@@ -12,7 +12,7 @@ export default function Team() {
             <img
               className="icon img-fluid"
               id="img1"
-              src={`${import.meta.env.BASE_URL}images/kai.png`}
+              src={`${import.meta.env.BASE_URL}images/kai.webp`}
               alt="Image of Kai Hyoudo"
             />
             <p className="eng-name">Kai Hyoudo</p>
@@ -30,7 +30,7 @@ export default function Team() {
             <img
               className="icon img-fluid"
               id="img2"
-              src={`${import.meta.env.BASE_URL}images/sae.png`}
+              src={`${import.meta.env.BASE_URL}images/sae.webp`}
               alt="Image of Sae Kirishima"
             />
             <p className="eng-name">Sae Kirishima</p>
@@ -48,7 +48,7 @@ export default function Team() {
             <img
               className="icon img-fluid"
               id="img3"
-              src={`${import.meta.env.BASE_URL}images/rin.png`}
+              src={`${import.meta.env.BASE_URL}images/rin.webp`}
               alt="Image of Rin Kageyama"
             />
             <p className="eng-name">Rin Kageyama</p>

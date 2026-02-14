@@ -10,7 +10,7 @@ export default function AppNavbar() {
         {/* 'as={Link}' allows the brand to act as a Router Link */}
         <Navbar.Brand as={Link} to="/">
           <img
-            src={`${import.meta.env.BASE_URL}images/logo.png`}
+            src={`${import.meta.env.BASE_URL}images/logo.webp`}
             className="brand-logo d-inline-block align-top"
             alt="Wanted Minds Logo"
 

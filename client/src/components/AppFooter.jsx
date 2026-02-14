@@ -4,9 +4,9 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
-    { name: 'Facebook', url: 'https://www.facebook.com/wantedmindsjp/', icon: `${import.meta.env.BASE_URL}images/fb.png` },
-    { name: 'Instagram', url: 'https://www.facebook.com/wantedmindsjp/', icon: `${import.meta.env.BASE_URL}images/instagram.png` },
-    { name: 'X', url: 'https://www.facebook.com/wantedmindsjp/', icon: `${import.meta.env.BASE_URL}images/x.png` },
+    { name: 'Facebook', url: 'https://www.facebook.com/wantedmindsjp/', icon: `${import.meta.env.BASE_URL}images/fb.webp` },
+    { name: 'Instagram', url: 'https://www.facebook.com/wantedmindsjp/', icon: `${import.meta.env.BASE_URL}images/instagram.webp` },
+    { name: 'X', url: 'https://www.facebook.com/wantedmindsjp/', icon: `${import.meta.env.BASE_URL}images/x.webp` },
   ];
 
   return (
