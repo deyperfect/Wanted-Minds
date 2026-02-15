@@ -72,7 +72,7 @@ Wanted-Minds/
 
 - GitHub: [@deyperfect](https://github.com/deyperfect)
 - Project Link: [https://github.com/deyperfect/Wanted-Minds](https://github.com/deyperfect/Wanted-Minds)
-- 
+  
 *Built as a portfolio/practice project showcasing React and modern web development*
 
 ---
