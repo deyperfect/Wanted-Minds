@@ -3,6 +3,12 @@ export default function Home() {
   return (
     <>
       <section id="hero" className="row">
+        <img 
+          src="/images/backdrop.webp" 
+          alt="Hero background" 
+          fetchpriority="high"
+          className="hero-background-image"
+        />
         <div className="col-9 col-md-7 mx-auto my-auto text-center">
           <div id="hero-text" className="my-auto">
             <h1>The minds you want when answers are hard to find.</h1>

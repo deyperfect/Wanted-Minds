@@ -125,24 +125,28 @@ html body {
 
 /* --- HERO --- */
 #hero {
+  position: relative;
   min-height: 30svh;
   width: 100vw;
-
-  /* Background settings */
-  background:
-    linear-gradient(rgba(22, 50, 66, 0.75), rgba(22, 50, 66, 0.75)),
-    url('/images/backdrop.webp') no-repeat center center;
-  background-size: cover;
-
-  /* Centering logic */
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2rem 0;
-
-  /* --- ADD THESE TO FIX THE SPACE ON THE RIGHT --- */
   overflow: hidden;
 }
+
+.hero-background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: blur(1px) brightness(0.5)
+}
+
+
 
 #hero h1 {
   font-size: 1.8rem;
