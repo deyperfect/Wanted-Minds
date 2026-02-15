@@ -5,7 +5,7 @@
   font-weight: 400;
   font-display: swap;
   /* Use the full path including the project subfolder */
-  src: url('/Wanted-Minds/fonts/poppins-v24-latin-regular.woff2') format('woff2');
+  src: url('/fonts/poppins-v24-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('/Wanted-Minds/fonts/poppins-v24-latin-600.woff2') format('woff2');
+  src: url('/fonts/poppins-v24-latin-600.woff2') format('woff2');
 }
 
 @font-face {
@@ -21,7 +21,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/Wanted-Minds/fonts/poppins-v24-latin-700.woff2') format('woff2');
+  src: url('/fonts/poppins-v24-latin-700.woff2') format('woff2');
 }
 
 /* --- QUICKSAND --- */
@@ -30,7 +30,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url('/Wanted-Minds/fonts/quicksand-v37-latin-300.woff2') format('woff2');
+  src: url('/fonts/quicksand-v37-latin-300.woff2') format('woff2');
 }
 
 @font-face {
@@ -38,7 +38,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/Wanted-Minds/fonts/quicksand-v37-latin-regular.woff2') format('woff2');
+  src: url('/fonts/quicksand-v37-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -46,7 +46,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/Wanted-Minds/fonts/quicksand-v37-latin-700.woff2') format('woff2');
+  src: url('/fonts/quicksand-v37-latin-700.woff2') format('woff2');
 }
 
 :root {
@@ -131,7 +131,7 @@ html body {
   /* Background settings */
   background:
     linear-gradient(rgba(22, 50, 66, 0.75), rgba(22, 50, 66, 0.75)),
-    url('/Wanted-Minds/images/backdrop.webp') no-repeat center center;
+    url('/images/backdrop.webp') no-repeat center center;
   background-size: cover;
 
   /* Centering logic */
