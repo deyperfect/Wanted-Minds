@@ -72,9 +72,7 @@ Wanted-Minds/
 
 - GitHub: [@deyperfect](https://github.com/deyperfect)
 - Project Link: [https://github.com/deyperfect/Wanted-Minds](https://github.com/deyperfect/Wanted-Minds)
-
-- Design inspiration from modern detective noir aesthetics
-- Character names use Japanese naming conventions
-- Built as a portfolio/practice project showcasing React and modern web development
+- 
+*Built as a portfolio/practice project showcasing React and modern web development*
 
 ---
