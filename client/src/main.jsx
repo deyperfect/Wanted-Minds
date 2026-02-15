@@ -7,7 +7,7 @@ import './style.min.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/Wanted-Minds">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>
