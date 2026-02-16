@@ -146,8 +146,6 @@ html body {
   filter: blur(1px) brightness(0.5)
 }
 
-
-
 #hero h1 {
   font-size: 1.8rem;
   color: var(--white);
@@ -162,6 +160,9 @@ html body {
   margin-left: 0;
   margin-right: 0;
 }
+
+
+
 /* --- 4. ABOUT & SERVICES --- */
 section {
   padding: 40px 0;
@@ -195,8 +196,8 @@ p {
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
-  height: 100%; /* Ensures all cards are the same height */
-  margin: 0; /* Let the Bootstrap 'g-4' handle the spacing instead */
+  height: 100%;
+  margin: 0;
 }
 
 .service {
@@ -204,6 +205,101 @@ p {
   font-weight: 200;
   font-family: "Quicksand", sans-serif;
 }
+
+/* TEAM */
+/* TEAM */
+
+#card1, #card2, #card3 {
+  background: linear-gradient(135deg, rgba(20, 24, 36, 0.95) 0%, rgba(10, 14, 26, 0.98) 100%);
+  border: 1px solid rgba(196, 30, 58, 0.2);
+  border-radius: 20px;
+  padding: 2rem 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+#card1:hover, #card2:hover, #card3:hover {
+  transform: translateY(-8px);
+  border-color: rgba(196, 30, 58, 0.5);
+  box-shadow: 0 12px 48px rgba(196, 30, 58, 0.2), 
+              0 0 60px rgba(196, 30, 58, 0.1);
+}
+
+/* Accent line at top */
+#card1::before, #card2::before, #card3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent-red), var(--accent-gold));
+}
+
+.detectives .icon {
+  display: block;
+  margin: 1rem auto 1.5rem auto;
+  max-width: 200px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgba(209, 202, 203, 0.3);
+  box-shadow: 0 0 30px rgba(126, 123, 124, 0.2);
+  transition: all 0.3s ease;
+}
+
+#card1:hover .icon {
+  border-color: rgba(213, 203, 205, 0.6);
+  box-shadow: 0 0 40px rgba(213, 203, 205, 0.4);
+  transform: scale(1.05);
+}
+
+#card2:hover .icon {
+  border-color: rgba(68, 56, 145, 0.6);
+  box-shadow: 0 0 40px rgba(36, 11, 193, 0.4);
+  transform: scale(1.05);
+}
+
+#card3:hover .icon {
+  border-color: rgba(193, 106, 120, 0.6);
+  box-shadow: 0 0 40px rgba(196, 30, 58, 0.4);
+  transform: scale(1.05);
+}
+
+
+.eng-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+  margin-top: 0;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+
+.jp-name {
+  font-size: 1rem;
+  color: #d4af37;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.desc {
+  flex-grow: 1;
+  padding: 1rem 0.5rem;
+  color: #a8b2d1;
+  line-height: 1.7;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
 
 /* --- 5. FOOTER --- */
 footer {
@@ -240,6 +336,8 @@ footer img {
 footer span {
     display: none;
 }
+
+
 /* Footer Styles */
 .footer-container {
   background-color: #ffffff;
@@ -286,7 +384,7 @@ footer span {
   opacity: 0.7;
 }
 
-/* Fix for mobile view to stack the brand and socials */
+
 @media (max-width: 767px) {
   .bottom {
     gap: 15px;

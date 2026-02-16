@@ -6,9 +6,10 @@ export default function Team() {
       <h2 className="text-center mb-5">Behind Closed Doors</h2>
 
       <div className="container2">
-        <Row className="justify-content-center">
+        <Row className="justify-content-center g-5">
           {/* Detective 1: Kai Hyoudo */}
-          <Col md={4} className="detectives mb-4" id="card1">
+          <Col md={4} className="detectives mb-4" >
+          <div className="d-flex flex-column h-100" id="card1">
             <img
               className="icon img-fluid"
               id="img1"
@@ -23,10 +24,12 @@ export default function Team() {
               unconventional methods to dominate the cyber realm and untangle
               technological webs.
             </p>
+          </div> 
           </Col>
 
           {/* Detective 2: Sae Kirishima */}
-          <Col md={4} className="detectives mb-4" id="card2">
+          <Col md={4} className="detectives mb-4" >
+          <div className="d-flex flex-column h-100" id="card2">
             <img
               className="icon img-fluid"
               id="img2"
@@ -41,10 +44,12 @@ export default function Team() {
               microscopic details and inconsistencies that everyone else misses,
               never letting emotion cloud her judgment.
             </p>
+          </div>
           </Col>
 
           {/* Detective 3: Rin Kageyama */}
-          <Col md={4} className="detectives mb-4" id="card3">
+          <Col md={4} className="detectives mb-4">
+          <div className="d-flex flex-column h-100" id="card3">
             <img
               className="icon img-fluid"
               id="img3"
@@ -59,6 +64,7 @@ export default function Team() {
               and a terrifyingly accurate gut instinct to navigate the parts of
               Tokyo where standard police procedure fails.
             </p>
+          </div>
           </Col>
         </Row>
       </div>
