@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact'; 
 import Error from './pages/Error';
 import Team from './pages/Team';
-import './style.css';
+import './style.min.css';
 
 function App() {
   return (
