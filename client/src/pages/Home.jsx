@@ -42,22 +42,22 @@ export default function Home() {
         <div className="row justify-content-lg-between justify-content-center g-4 g-lg-5" id="container2">
 
           <div className="col-11 col-lg-4 d-flex">
-            <div className="cardx flex-column w-100">
+            <div className="cardx w-100">
               <h3 className="service-title">Crime Scene Investigation</h3>
               <p className="service">We conduct thorough and methodical crime scene investigations to uncover the truth hidden within the details. Our team carefully documents, collects, and analyzes physical evidence, ensuring that nothing is overlooked. Every step follows strict investigative protocols to preserve integrity and accuracy.</p>
             </div>
           </div>
 
           <div className="col-11 col-lg-4 d-flex">
-            <div className="cardx flex-column w-100">
+            <div className="cardx w-100">
               <h3 className="service-title">Missing Persons Investigation</h3>
-              <p className="service">When someone goes missing, time and precision matter. We specialize in tracing leads, verifying information, and uncovering patterns that others may miss. Through interviews, surveillance, and intelligence gathering, we work relentlessly to locate missing individuals and provide answers to families seeking clarity and closure.</p>
+              <p className="service">When someone goes missing, time and precision matter. We specialize in tracing leads and uncovering patterns that others may miss. Through interviews, surveillance, and intelligence gathering, we work relentlessly to locate missing individuals and provide answers to families seeking clarity and closure.</p>
             </div>
           </div>
 
           <div className="col-11 col-lg-4 d-flex">
-            <div className="cardx flex-column w-100">
-              <h3 className="service-title">Digital Crime Analysis</h3>
+            <div className="cardx w-100">
+              <h3 className="service-title">Digital&nbsp;Crime <br />Analysis</h3>
               <p className="service">In today&apos;s digital world, crimes often leave traces online. Our digital crime analysis service examines electronic data, online activity, and digital footprints to uncover hidden connections and evidence. From data recovery to behavioral analysis, we transform complex digital information into clear, actionable insights.</p>
             </div>
           </div>
