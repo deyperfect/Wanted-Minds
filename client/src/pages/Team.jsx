@@ -8,7 +8,7 @@ export default function Team() {
       <div className="container2">
         <Row className="justify-content-center g-5">
           {/* Detective 1: Kai Hyoudo */}
-          <Col md={4} className="detectives mb-4" >
+          <Col xs={10} sm={10} md={6} lg={4} className="detectives mb-4" >
           <div className="d-flex flex-column h-100" id="card1">
             <img
               className="icon img-fluid"
@@ -28,7 +28,7 @@ export default function Team() {
           </Col>
 
           {/* Detective 2: Sae Kirishima */}
-          <Col md={4} className="detectives mb-4" >
+          <Col xs={10} sm={10} md={6} lg={4} className="detectives mb-4" >
           <div className="d-flex flex-column h-100" id="card2">
             <img
               className="icon img-fluid"
@@ -48,7 +48,7 @@ export default function Team() {
           </Col>
 
           {/* Detective 3: Rin Kageyama */}
-          <Col md={4} className="detectives mb-4">
+          <Col xs={10} sm={10} md={6} lg={4} className="detectives mb-4">
           <div className="d-flex flex-column h-100" id="card3">
             <img
               className="icon img-fluid"
