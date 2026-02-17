@@ -14,11 +14,11 @@ export default function Contact() {
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder="email@example.com" />
+              <Form.Control type="email" placeholder="email@example.com" required />
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Message</Form.Label>
-              <Form.Control as="textarea" rows={4} />
+              <Form.Control as="textarea" rows={4} required />
             </Form.Group>
             <Button variant="outline-light" type="submit">Send Message</Button>
           </Form>
