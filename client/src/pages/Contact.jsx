@@ -4,9 +4,9 @@ export default function Contact() {
   return (
     <section className="py-5">
       <Row>
-        <Col md={8} className="mx-auto text-light">
-          <h2>Contact Wanted Minds</h2>
-          <p>Reach out to our Tokyo office for confidential inquiries.</p>
+        <Col md={8} className="mx-auto" id="contact-page">
+          <h2 id="contact-title">Contact Wanted Minds</h2>
+          <p className="text-center">Reach out to our Tokyo office for confidential inquiries.</p>
           <Form>
             <Form.Group className="mb-3">
               <Form.Label>Name</Form.Label>

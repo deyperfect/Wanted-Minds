@@ -168,18 +168,23 @@ section {
   padding: 40px 0;
 }
 
-h2 {
+#intro p {
+  text-align: justify;
+}
+
+#intro h2 {
+  margin-bottom: 2.5rem;
   text-align: center;
-  margin-top: 2rem;
   font-weight: bold;
 }
 
-p {
-  text-align: justify;
-  margin: 1rem;
+/* Services Gradient Text */
+#services h2{
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-weight: bold;
 }
 
-/* Services Gradient Text */
 .service-title,
 #services h3 {
   background: var(--spectrum-gradient);
@@ -193,17 +198,22 @@ p {
 .cardx {
   background-color: rgba(0, 0, 0, 1);
   border: 0.5px solid rgba(255, 255, 255, 0.35);
-  padding: 1.5rem;
+  padding: 1.5rem 3rem;
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
   height: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .service {
   color: var(--white);
   font-weight: 200;
   font-family: "Quicksand", sans-serif;
+  text-align: justify;
+  margin-top: 1.5rem;
 }
 
 /* TEAM */
@@ -300,6 +310,25 @@ p {
 }
 
 
+/* --- CONTACT --- */
+#contact-page {
+  color: var(--dark-navy);
+}
+
+#contact-title {
+  text-align: center;
+}
+
+#contact-page button {
+  outline: 1px solid black;
+  color: var(--dark-navy);
+}
+
+#contact-page button:hover {
+  background-color: var(--dark-navy);
+  color: var(--white);
+  border: var(--dark-navy);
+}
 /* --- 5. FOOTER --- */
 footer {
   font-size: 0.8em;
