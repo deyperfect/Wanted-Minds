@@ -84,8 +84,19 @@ html body {
 }
 
 .nav-link {
-  color: var(--dark-navy);
+  color: var(--dark-navy) !important;
+  font-size: 1.3em !important;
 }
+
+.navbar .nav-link.active::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: var(--dark-navy);
+  margin-top: 0.25rem;
+}
+
 
 /* Toggler Styles */
 .custom-toggler {

@@ -24,12 +24,8 @@ export default function AppNavbar() {
         
         
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto text-center">
             {/* NavLink automatically adds an "active" class to the current page */}
-            <Nav.Link as={NavLink} to="/" end>
-              Home
-            </Nav.Link>
-
             <Nav.Link as={NavLink} to="/" end>
               About
             </Nav.Link>
