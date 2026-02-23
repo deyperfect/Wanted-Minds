@@ -63,6 +63,11 @@
   padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+    scrollbar-gutter: stable;
+}
+
 html body {
   font-family: "Poppins", sans-serif;
   color: var(--dark-navy);
@@ -380,7 +385,7 @@ footer span {
 /* Footer Styles */
 .footer-container {
   background-color: #ffffff;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .address-section {
