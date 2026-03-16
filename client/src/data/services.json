@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "name": "Crime Scene Investigation",
+    "description": "We conduct thorough and methodical crime scene investigations to uncover the truth hidden within the details. Our team carefully documents, collects, and analyzes physical evidence, ensuring that nothing is overlooked. Every step follows strict investigative protocols to preserve integrity and accuracy."
+  },
+  {
+    "id": "2",
+    "name": "Missing Persons Investigation",
+    "description": "When someone goes missing, time and precision matter. We specialize in tracing leads and uncovering patterns that others may miss. Through interviews, surveillance, and intelligence gathering, we work relentlessly to locate missing individuals and provide answers to families seeking clarity and closure."
+  },
+  {
+    "id": "3",
+    "name": "Digital Crime Analysis",
+    "description": "In today's digital world, crimes often leave traces online. Our digital crime analysis service examines electronic data, online activity, and digital footprints to uncover hidden connections and evidence. From data recovery to behavioral analysis, we transform complex digital information into clear, actionable insights."
+  }
+]
