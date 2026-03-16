@@ -1,52 +1,52 @@
 /* --- POPPINS --- */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   /* Use the full path including the project subfolder */
-  src: url('/fonts/poppins-v24-latin-regular.woff2') format('woff2');
+  src: url("/fonts/poppins-v24-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('/fonts/poppins-v24-latin-600.woff2') format('woff2');
+  src: url("/fonts/poppins-v24-latin-600.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/poppins-v24-latin-700.woff2') format('woff2');
+  src: url("/fonts/poppins-v24-latin-700.woff2") format("woff2");
 }
 
 /* --- QUICKSAND --- */
 @font-face {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url('/fonts/quicksand-v37-latin-300.woff2') format('woff2');
+  src: url("/fonts/quicksand-v37-latin-300.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/quicksand-v37-latin-regular.woff2') format('woff2');
+  src: url("/fonts/quicksand-v37-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/quicksand-v37-latin-700.woff2') format('woff2');
+  src: url("/fonts/quicksand-v37-latin-700.woff2") format("woff2");
 }
 
 :root {
@@ -64,8 +64,8 @@
 }
 
 html {
-    scroll-behavior: smooth;
-    scrollbar-gutter: stable;
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
 }
 
 html body {
@@ -101,7 +101,6 @@ html body {
   background-color: var(--dark-navy);
   margin-top: 0.25rem;
 }
-
 
 /* Toggler Styles */
 .custom-toggler {
@@ -139,6 +138,11 @@ html body {
   color: #ffffff !important;
 }
 
+#basic-navbar-nav .btn {
+  background-color: #163141;
+  font-size: 1.1rem;
+}
+
 /* --- HERO --- */
 #hero {
   position: relative;
@@ -159,7 +163,7 @@ html body {
   height: 100%;
   object-fit: cover;
   z-index: -1;
-  filter: blur(1px) brightness(0.5)
+  filter: blur(1px) brightness(0.5);
 }
 
 #hero h1 {
@@ -177,8 +181,6 @@ html body {
   margin-right: 0;
 }
 
-
-
 /* --- 4. ABOUT & SERVICES --- */
 section {
   padding: 40px 0;
@@ -195,7 +197,7 @@ section {
 }
 
 /* Services Gradient Text */
-#services h2{
+#services h2 {
   margin-bottom: 2.5rem;
   text-align: center;
   font-weight: bold;
@@ -232,10 +234,27 @@ section {
   margin-top: 1.5rem;
 }
 
+#services-card {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* TEAM */
 
-#card1, #card2, #card3 {
-  background: linear-gradient(135deg, rgba(20, 24, 36, 0.95) 0%, rgba(10, 14, 26, 0.98) 100%);
+#team h2 {
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+#card1,
+#card2,
+#card3 {
+  background: linear-gradient(
+    135deg,
+    rgba(20, 24, 36, 0.95) 0%,
+    rgba(10, 14, 26, 0.98) 100%
+  );
   border: 1px solid rgba(196, 30, 58, 0.2);
   border-radius: 20px;
   padding: 2rem 1.5rem;
@@ -248,16 +267,21 @@ section {
   overflow: hidden;
 }
 
-#card1:hover, #card2:hover, #card3:hover {
+#card1:hover,
+#card2:hover,
+#card3:hover {
   transform: translateY(-8px);
   border-color: rgba(196, 30, 58, 0.5);
-  box-shadow: 0 12px 48px rgba(196, 30, 58, 0.2), 
-              0 0 60px rgba(196, 30, 58, 0.1);
+  box-shadow:
+    0 12px 48px rgba(196, 30, 58, 0.2),
+    0 0 60px rgba(196, 30, 58, 0.1);
 }
 
 /* Accent line at top */
-#card1::before, #card2::before, #card3::before {
-  content: '';
+#card1::before,
+#card2::before,
+#card3::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -297,7 +321,6 @@ section {
   transform: scale(1.05);
 }
 
-
 .eng-name {
   font-weight: 700;
   font-size: 1.5rem;
@@ -325,9 +348,8 @@ section {
   font-size: 0.95rem;
 }
 
-
 /* --- CONTACT --- */
-#contact-page {
+#contact-form {
   color: var(--dark-navy);
 }
 
@@ -335,16 +357,66 @@ section {
   text-align: center;
 }
 
-#contact-page button {
+#contact-form button {
   outline: 1px solid black;
   color: var(--dark-navy);
 }
 
-#contact-page button:hover {
+#contact-form button:hover {
   background-color: var(--dark-navy);
   color: var(--white);
   border: var(--dark-navy);
 }
+
+#image-loc {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#contact {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+#contact h2 {
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+#address-holder {
+  background-color: black;
+  border-radius: 7px;
+  padding: 1.5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#address-holder .address-label {
+  text-align: left;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+#address-holder address {
+  font-style: normal;
+  line-height: 1.7;
+}
+
+#address-holder .address-content {
+  text-align: left;
+}
+
+
 /* --- 5. FOOTER --- */
 footer {
   font-size: 0.8em;
@@ -364,23 +436,21 @@ footer .bottom {
 }
 
 .brand p {
-    margin: 0;
+  margin: 0;
 }
 
 footer .socials {
-    display: flex;
-    gap: 0.3em;
+  display: flex;
+  gap: 0.3em;
 }
-
 
 footer img {
   width: 1.5em;
 }
 
 footer span {
-    display: none;
+  display: none;
 }
-
 
 /* Footer Styles */
 .footer-container {
@@ -391,14 +461,13 @@ footer span {
 .address-section {
   margin-top: 40px;
   margin-bottom: 20px;
-
 }
 
 .address-label {
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.25rem;
-  color: #3f6d87; 
+  color: #3f6d87;
   margin-bottom: 5px !important;
   text-transform: uppercase;
   text-align: center;
@@ -428,7 +497,6 @@ footer span {
   opacity: 0.7;
 }
 
-
 @media (max-width: 767px) {
   .bottom {
     gap: 15px;
@@ -436,6 +504,86 @@ footer span {
   .social-icon img {
     margin: 0 10px;
   }
+}
+
+/* ERROR PAGE */
+
+.error-page {
+  min-height: 100vh;
+  background: black;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradient-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.9), black);
+}
+
+.display-error {
+  font-size: clamp(6rem, 18vw, 12rem);
+  line-height: 1;
+  font-weight: 900;
+  background: linear-gradient(to bottom, #e4e4e7, #52525b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.02em;
+}
+
+.case-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 1rem;
+  background: rgba(127, 29, 29, 0.3);
+  border: 1px solid rgba(153, 27, 27, 0.5);
+  border-radius: 6px;
+  color: #fca5a5;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+}
+
+.btn-base {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  transition:
+    background 0.25s,
+    box-shadow 0.25s,
+    border-color 0.25s;
+  min-width: 180px;
+  justify-content: center;
+}
+.btn-primary-custom {
+  background: white;
+  color: black;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15);
+}
+.btn-primary-custom:hover {
+  background: #e4e4e7;
+  box-shadow: 0 4px 28px rgba(255, 255, 255, 0.25);
+}
+.btn-outline-custom {
+  background: transparent;
+  color: white;
+  border: 1px solid #3f3f46;
+}
+.btn-outline-custom:hover {
+  background: #18181b;
+  border-color: #52525b;
+  color: white;
 }
 
 /* --- MEDIA QUERIES --- */
@@ -488,7 +636,7 @@ footer span {
 
   #hero h1 {
     font-size: 4rem;
-    max-width: 800px; 
+    max-width: 800px;
     margin: 0 auto;
   }
 
@@ -503,5 +651,5 @@ footer span {
 
   footer span {
     display: inline-block;
-}
+  }
 }
