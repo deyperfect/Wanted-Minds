@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "engName": "Kai Hyoudo",
+        "jpName": "兵藤 解",
+        "info": "The eccentric modern tactician and digital specialist. Kai views every crime as a complex puzzle or code waiting to be broken, using unconventional methods to dominate the cyber realm and untangle technological webs.",
+        "image": "/images/kai.webp",
+        "alt": "Image of Kai Hyoudo"
+    },
+    {
+        "id": "2",
+        "engName": "Sae Kirishima",
+        "jpName": "霧島 冴",
+        "info": "The agency's lead investigator and a cool, disciplined logician. Sae cuts through the 'fog' of complex cases by spotting the microscopic details and inconsistencies that everyone else misses, never letting emotion cloud her judgment.",
+        "image": "/images/sae.webp",
+        "alt": "Image of Sae Kirishima"
+    },
+    {
+        "id": "3",
+        "engName": "Rin Kageyama",
+        "jpName": "影山 凛",
+        "info": "The intuitive muscle and silent shadow of the group. Rin is a master of dangerous groundwork, relying on formidable street smarts and a terrifyingly accurate gut instinct to navigate the parts of Tokyo where standard police procedure fails.",
+        "image": "/images/rin.webp",
+        "alt": "Image of Rin Kageyama"
+    }
+]
