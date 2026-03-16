@@ -1,30 +1,28 @@
 import { Container } from 'react-bootstrap';
 import { Routes, Route } from 'react-router-dom';
-import AppNavbar from './components/AppNavbar'; 
-import AppFooter from './components/AppFooter';
+import Navbar from './components/Navbar'; 
+import Footer from './components/Footer';
 import Home from './pages/Home';
-import Contact from './pages/Contact'; 
-import Error from './pages/Error';
+import Error from './components/Error';
 import Team from './pages/Team';
 import './style.css';
 
-function App() {
+const App = () => {
   return (
 
     <>  
-      <AppNavbar /> 
+      <Navbar /> 
       
-      <Container>
+      <Container >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/team" element={<Team />} />
-          <Route path="/contact" element={<Contact />} />
           
           <Route path="*" element={<Error />} />
         </Routes>
       </Container>
       
-      <AppFooter />
+      <Footer />
     </>
 
   );
