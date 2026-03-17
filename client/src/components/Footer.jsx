@@ -10,16 +10,7 @@ const Footer = () => {
   return (
     <div className="footer-container container-lg">
       <footer>
-        <div className="upper text-center">
-          <div className="address-section">
-            <p className="address-label">OUR LOCATION</p>
-            <address className="address-details">
-              4-12-7 Aoyama-Cyber,<br />
-              Minato-ku, Tokyo 107-0062
-            </address>
-          </div>
-        </div>
-        
+               
         <hr className="footer-divider" />
         
         <div className="bottom d-flex flex-column flex-md-row justify-content-between align-items-center">
