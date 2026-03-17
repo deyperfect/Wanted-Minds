@@ -1,6 +1,6 @@
 const Hero = ({tagline = 'The minds you want when answers are hard to find.'}) => {
     return (
-        <section id="hero" className="row">
+        <section id="hero">
         <img 
           src="/images/backdrop.webp" 
           alt="Hero background" 
