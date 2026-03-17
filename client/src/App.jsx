@@ -1,4 +1,3 @@
-import { Container } from 'react-bootstrap';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar'; 
 import Footer from './components/Footer';
@@ -12,15 +11,13 @@ const App = () => {
 
     <>  
       <Navbar /> 
-      
-      <Container >
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/team" element={<Team />} />
           
           <Route path="*" element={<Error />} />
         </Routes>
-      </Container>
       
       <Footer />
     </>
