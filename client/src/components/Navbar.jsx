@@ -31,17 +31,21 @@ const NavigationBar = () => {
               Home
             </Nav.Link>
 
-            <Nav.Link as={NavLink} to="/team" end>
-              Our Team
+            <Nav.Link as={NavLink} to="/about" end>
+              About
             </Nav.Link>
 
-            <Nav.Link href="/#contact">
-              Contact Us
+            <Nav.Link as={NavLink} to="/services" end>
+              Services
+            </Nav.Link>
+
+            <Nav.Link as={NavLink} to="/team" end>
+              Team
             </Nav.Link>
 
           </Nav>
           <Link to="/contact" className="btn btn-outline-light ms-lg-3">
-            File a Case
+            Open a Case
           </Link>
         </Navbar.Collapse>
       </Container>
