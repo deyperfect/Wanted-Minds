@@ -4,22 +4,28 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Error from './components/Error';
 import Team from './pages/Team';
+import About from './pages/About';
 import './style.css';
 
 const App = () => {
   return (
 
     <>  
-      <Navbar /> 
+      <div className="d-flex flex-column min-vh-100">
+        <Navbar /> 
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/team" element={<Team />} />
-          
-          <Route path="*" element={<Error />} />
-        </Routes>
-      
-      <Footer />
+        <main className="flex-grow-1">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/team" element={<Team />} />
+            
+            <Route path="*" element={<Error />} />
+          </Routes>
+        </main>
+        
+        <Footer />
+      </div>
     </>
 
   );
