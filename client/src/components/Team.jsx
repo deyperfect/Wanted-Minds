@@ -6,7 +6,7 @@ const Team = ({ sectionTitle = "Behind Closed Doors" }) => {
     <section id="team" className="py-5">
       <h2 className="text-center mb-5"> {sectionTitle}</h2>
 
-      <div className="container2">
+      <div className="container">
         <div className="row justify-content-center g-5">
 
             {team.map((detective) => (
