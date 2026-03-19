@@ -39,10 +39,6 @@ const NavigationBar = () => {
               Services
             </Nav.Link>
 
-            <Nav.Link as={NavLink} to="/team" end>
-              Team
-            </Nav.Link>
-
           </Nav>
           <Link to="/contact" className="btn btn-outline-light ms-lg-3">
             Open a Case
