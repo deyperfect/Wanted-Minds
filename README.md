@@ -1,4 +1,4 @@
-# Wanted Minds 🕵️
+# Wanted Minds 
 
 > *The minds you want when answers are hard to find.*
 
@@ -19,13 +19,12 @@ The website features a mysterious, professional aesthetic that reflects the agen
 
 ## Live Demo
 
-**[View Live Site](https://deyperfect.github.io/Wanted-Minds/)**
+**[View Live Site](https://wanted-minds.vercel.app/)**
 
 ## Features
 
 - **Responsive Design** - Fully responsive across all devices using React Bootstrap
 - **Single Page Application** - Smooth navigation with React Router
-- **Team Showcase** - Meet the three detectives: Kai Hyoudo, Sae Kirishima, and Rin Kageyama
 - **Contact Form** - Easy way for potential clients to reach out
 - **Modern UI/UX** - Clean, professional design with custom styling
 - **Fast Performance** - Built with Vite for optimal loading speeds
@@ -37,33 +36,60 @@ The website features a mysterious, professional aesthetic that reflects the agen
 - **[React Router](https://reactrouter.com/)** (v7.13.0) - Client-side routing
 - **[React Bootstrap](https://react-bootstrap.github.io/)** (v2.10.10) - UI components
 - **[Bootstrap](https://getbootstrap.com/)** (v5.3.8) - CSS framework
-- **[React Bootstrap Icons](https://www.npmjs.com/package/react-bootstrap-icons)** - Icon library
+- **[Lucide React](https://lucide.dev/)** (v0.577.0) - Icon library
+- **[React Bootstrap Icons](https://www.npmjs.com/package/react-bootstrap-icons)** (v1.11.6) - Icon library
 
 ## Project Structure
 
 ```
 Wanted-Minds/
 ├── public/
-│   └── images/           # Project images
-│   └── fonts/            # Project fonts
+│   ├── fonts/                    # Self-hosted web fonts
+│   │   ├── poppins-v24-latin-600.woff2
+│   │   ├── poppins-v24-latin-700.woff2
+│   │   ├── poppins-v24-latin-regular.woff2
+│   │   ├── quicksand-v37-latin-300.woff2
+│   │   ├── quicksand-v37-latin-700.woff2
+│   │   └── quicksand-v37-latin-regular.woff2
+│   └── images/                   # Static images
+│       ├── backdrop.webp
+│       ├── logo.webp
+│       └── ...
 ├── src/
-│   ├── assets/           # Static assets
-│   ├── components/       # Reusable components
-│   │   ├── AppNavbar.jsx
-│   │   └── AppFooter.jsx
-│   ├── pages/            # Page components
-│   │   ├── Home.jsx      # Landing page
-│   │   ├── Team.jsx      # Team showcase
-│   │   ├── Contact.jsx   # Contact form
-│   │   └── Error.jsx     # 404 page
-│   ├── App.jsx           # Main app component
-│   ├── main.jsx          # Entry point
-│   └── style.css         # Global CSS
-│   └── style.min.css     # Minified CSS
-├── dist/                 # Build output
-├── index.html            # HTML template
-├── package.json          # Dependencies and scripts
-└── vite.config.js        # Vite configuration
+│   ├── assets/                   # Static assets
+│   ├── components/               # Reusable components
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── ContactForm.jsx
+│   │   ├── Error.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── HeroButtons.jsx
+│   │   ├── Inspiration.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ServiceCard.jsx
+│   │   ├── Services.jsx
+│   │   ├── Team.jsx
+│   │   ├── TeamCard.jsx
+│   │   ├── TestimonialCard.jsx
+│   │   └── Testimonials.jsx
+│   ├── data/                     # Static JSON data
+│   │   ├── about.json
+│   │   ├── services.json
+│   │   ├── team.json
+│   │   └── testimonials.json
+│   ├── pages/                    # Page components
+│   │   ├── About.jsx
+│   │   ├── Home.jsx
+│   │   └── Team.jsx
+│   ├── App.jsx                   # Main app component
+│   ├── main.jsx                  # Entry point
+│   └── style.css                 # Global styles
+├── dist/                         
+├── index.html                    # HTML template
+├── package.json                  # Dependencies and scripts
+├── vite.config.js                # Vite configuration
+└── vercel.json                   
 ```
 
 ## Author
