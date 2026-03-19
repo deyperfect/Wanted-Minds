@@ -1,0 +1,44 @@
+[
+    {
+      "id": "1",
+      "name": "Anonymous Client",
+      "location": "Tokyo, Japan",
+      "quote": "Wanted Minds found answers in three weeks that the police couldn't find in three years. I finally have the closure I desperately needed.",
+      "case": "Missing Persons"
+    },
+    {
+      "id": "2",
+      "name": "Anonymous Client",
+      "location": "Osaka, Japan",
+      "quote": "Their digital crime team uncovered evidence that completely changed the outcome of my case. Precise, professional, and discreet from start to finish.",
+      "case": "Digital Crime Analysis"
+    },
+    {
+      "id": "3",
+      "name": "Anonymous Client",
+      "location": "Sapporo, Japan",
+      "quote": "I was skeptical at first, but the level of detail in their investigation was unlike anything I had ever seen. They left absolutely nothing to chance.",
+      "case": "Crime Scene Investigation"
+    },
+    {
+      "id": "4",
+      "name": "Anonymous Client",
+      "location": "Osaka, Japan",
+      "quote": "Confidentiality was my biggest concern and Wanted Minds handled everything with the utmost discretion. I never once felt exposed.",
+      "case": "Missing Persons"
+    },
+    {
+      "id": "5",
+      "name": "Anonymous Client",
+      "location": "Kyoto, Japan",
+      "quote": "From the first consultation to the final report, the team was thorough, communicative, and relentless. They gave my family our answers.",
+      "case": "Crime Scene Investigation"
+    },
+    {
+      "id": "6",
+      "name": "Anonymous Client",
+      "location": "Hiroshima, Japan",
+      "quote": "I reached out not knowing what to expect. What I got was a team that treated my case as if it were their own. The results spoke for themselves.",
+      "case": "Digital Crime Analysis"
+    }
+]
