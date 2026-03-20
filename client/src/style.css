@@ -211,8 +211,6 @@ html body {
   gap: 1rem;
 }
 
-
-
 /* --- 4. ABOUT & SERVICES --- */
 #services {
   background-color: #0d1f2d;
@@ -242,7 +240,7 @@ section {
   object-fit: cover;
   border-radius: 10px;
   display: block;
-  margin-bottom: 20px ;
+  margin-bottom: 20px;
 }
 
 #about-text {
@@ -302,8 +300,6 @@ section {
   margin: 0 auto;
 }
 
-
-
 /* --- CONTACT --- */
 #contact {
   max-width: 1150px;
@@ -317,12 +313,8 @@ section {
   color: var(--dark-navy);
 }
 
-#contact-title {
-  text-align: center;
-}
-
 #contact-form {
-  background-color: black;
+  background-color: var(--dark-navy);
   border-radius: 10px;
   padding: 30px;
   max-width: 600px;
@@ -336,21 +328,21 @@ section {
 }
 
 #contact-form .form-control {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgb(255, 255, 255, 0.8);
   border: 0.5px solid rgba(128, 202, 233, 0.25);
   border-radius: 7px;
-  color: var(--white);
+  color: var(--dark-navy);
 }
 
 #contact-form .form-control::placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 #contact-form .form-control:focus {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 1);
   border-color: rgba(128, 202, 233, 0.6);
   box-shadow: none;
-  color: var(--white);
+  color: var(--dark-navy);
 }
 
 #contact-form button[type="submit"] {
@@ -371,13 +363,17 @@ section {
   color: #abb4b9;
   font-style: normal;
   font-size: 0.85rem;
-  line-height: 1.7;
+  margin: 0;
 }
 
 .address {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+}
+
+.address-holder {
+  display: flex;
+  flex-direction: column;
 }
 
 .address-holder span {
@@ -396,7 +392,6 @@ section {
 footer {
   font-size: 0.8em;
   text-align: center;
- 
 }
 
 footer hr {
@@ -538,31 +533,47 @@ footer span {
   color: white;
 }
 
-
-
-
 /* ABOUT PAGE */
 
 /* Inspiration Component */
+#inspiration {
+  background-color: black;
+}
+
 #inspiration-content {
   display: flex;
   flex-direction: column;
 }
 
-#inspiration-content h2 {
-  text-transform: uppercase;
-  font-family: "Quicksand";
-  background-color: #0d1f2d;
-}
-
-#inspiration-img img{
+#inspiration-img img {
   width: 100%;
   height: 100%;
-  border-radius: 8px;
+  border-radius: 19px;
   display: block;
-  filter: grayscale(100%);
-  
+  box-shadow: 0px 0px 20px #86868f;
 }
+
+.blockquote p {
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 900;
+  background: linear-gradient(to bottom, #e4e4e7, #52525b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.02em;
+}
+
+.inspiration-text {
+  border-left: 3px solid #52525b;
+  padding: 0 1rem;
+  color: #abb4b9;
+}
+
+#quote {
+  color: #abb4b9;
+}
+
 
 /* TEAM */
 
@@ -580,31 +591,37 @@ footer span {
 #team-card {
   padding: 1rem;
   height: 100%;
+  transition: all 1s ease;
 }
 
-.image-holder {
+#team-card:hover {
+  transform: scale(1.05);
+  border-radius: 12px;
+  box-shadow: 0px 0px 30px rgba(97, 96, 96, 0.8);
+}
+
+.team-image-holder {
   height: 400px;
   position: relative;
 }
 
-.image-holder img{
+.team-image-holder img {
   height: 100%;
   border-radius: 10px 10px 0 0;
-  object-fit: cover; 
+  object-fit: cover;
   display: block;
   box-shadow: 0 -8px 16px rgba(0, 0, 0, 0.3);
 }
 
-.image-holder::after {
-  content: '';
+.team-image-holder::after {
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 50%; 
+  height: 50%;
   background: linear-gradient(to top, #0d1f2d, rgba(13, 31, 45, 0));
 }
-
 
 #detective-details {
   margin-top: 0.5rem;
@@ -666,7 +683,6 @@ footer span {
   height: 50px;
 }
 
-
 .testimonial-author {
   background: var(--spectrum-gradient);
   -webkit-background-clip: text;
@@ -690,14 +706,45 @@ footer span {
   align-items: center;
 }
 
-
-.testimonial-location, .location-icon {
+.testimonial-location,
+.location-icon {
   color: #52525b;
 }
 
 .testimonial-quote {
   margin-top: 1rem;
   color: #e4e4e7;
+}
+
+
+/* CASE SUBMISSION FORM */
+#caseform {
+  max-width: 1200px;
+  background-color: #000000;
+  padding: 1rem 1rem;
+  border-radius: 12px;
+}
+
+#caseform .form-label {
+  text-transform: uppercase;
+  color: #3f6d87;
+}
+
+#turnstile-holder {
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#bottom-holder {
+  display: flex;
+  flex-direction: column;
+}
+
+#bottom-holder button{
+  background-color: #3f6d87;
+  color: white;
 }
 
 
@@ -709,7 +756,8 @@ footer span {
     margin: 0;
   }
 
-  #hero-contact, #hero-file {
+  #hero-contact,
+  #hero-file {
     font-size: 1.3rem;
   }
 
@@ -730,6 +778,7 @@ footer span {
   .navbar img {
     margin-left: 2.5em;
   }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -745,8 +794,8 @@ footer span {
     padding: 0;
   }
 
-
-  #hero-contact, #hero-file {
+  #hero-contact,
+  #hero-file {
     font-size: 1.3rem;
   }
 
@@ -787,14 +836,7 @@ footer span {
   }
 
   .blockquote p {
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1.2;
-  }
-
-  .inspiration-text {
-    border-left: 3px solid #0d1f2d;
-    padding: 0 1rem; 
+    font-size: 3.5rem;
   }
 
   #hero .row {
@@ -829,6 +871,16 @@ footer span {
 
   .navbar img {
     margin-left: 0.5em;
+  }
+
+  #caseform {
+    padding: 3rem 3rem;
+  }
+
+  #bottom-holder {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   footer span {
