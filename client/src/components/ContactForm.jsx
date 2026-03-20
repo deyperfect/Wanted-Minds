@@ -30,10 +30,12 @@ const ContactForm = () => {
 
         <div className="address">
           <div className="address-holder">
-            <span>Headquarters</span>
-            <address className="address-text">
-              4-12-7 Aoyama-Cyber, Minato-ku, Tokyo 107-0062
-            </address>
+  
+              <span>Headquarters</span>
+              <address className="address-text">
+                4-12-7 Aoyama-Cyber, <br/> Minato-ku, Tokyo 107-0062
+              </address>
+
           </div>
           <button className="btn" type="submit">
             Send Message

@@ -1,5 +1,15 @@
 import ContactForm from "./ContactForm";
 
+const fields = [
+  { label: "Name", type: "text", placeholder: "Your Name" },
+  {
+    label: "Email",
+    type: "email",
+    placeholder: "email@example.com",
+    required: true,
+  },
+];
+
 const Contact = () => {
   return (
     <section className="py-5" id="contact">
