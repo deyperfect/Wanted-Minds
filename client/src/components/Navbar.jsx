@@ -40,7 +40,7 @@ const NavigationBar = () => {
             </Nav.Link>
 
           </Nav>
-          <Link to="/contact" className="btn btn-outline-light ms-lg-3">
+          <Link to="/file" className="btn btn-outline-light ms-lg-3">
             Open a Case
           </Link>
         </Navbar.Collapse>
