@@ -21,7 +21,7 @@ const About = ({
                 <p key={index}>{paragraph}</p>
               ))}
             </div>
-            <Link to="/about" className='btn btn-dark'> Learn More </Link>
+            <Link to="/about" className='btn btn-dark'> Learn more about Wanted Minds</Link>
           </div>
           
         </div>
