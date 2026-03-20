@@ -3,7 +3,7 @@
 const TeamCard = ({ detective }) => {
   return (
     <div className="d-flex flex-column h-100" id="team-card">
-      <div className="image-holder">
+      <div className="team-image-holder">
         <img
           className="img-fluid"
           src={detective.image}
