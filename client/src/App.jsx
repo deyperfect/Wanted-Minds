@@ -1,11 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar'; 
 import Footer from './components/Footer';
-import Home from './pages/Home';
+import HomePage from './pages/HomePage';
 import Error from './components/Error';
 import Team from './pages/Team';
-import About from './pages/About';
+import AboutPage from './pages/AboutPage';
+import { FileACasePage } from './pages/FileACasePage';
 import './style.css';
+
 
 const App = () => {
   return (
@@ -16,9 +18,9 @@ const App = () => {
 
         <main className="flex-grow-1">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/team" element={<Team />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/file" element={<FileACasePage />} />
             
             <Route path="*" element={<Error />} />
           </Routes>
