@@ -39,7 +39,7 @@ const CaseForm = () => {
   };
 
   return (
-    <section>
+    <section className="caseform-holder d-flex flex-column">
       <div className="col-11 mx-auto" id="caseform">
         <form onSubmit={handleSubmit}>
           <div className="row mb-5">

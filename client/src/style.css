@@ -718,6 +718,9 @@ footer span {
 
 
 /* CASE SUBMISSION FORM */
+
+
+
 #caseform {
   max-width: 1200px;
   background-color: #000000;
@@ -742,9 +745,15 @@ footer span {
   flex-direction: column;
 }
 
-#bottom-holder button{
+#bottom-holder button {
   background-color: #3f6d87;
   color: white;
+  transition: all 0.5s ease;
+}
+
+#bottom-holder button:hover {
+  transform: scale(1.05);
+  filter: contrast(1.8);
 }
 
 
