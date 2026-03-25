@@ -9,28 +9,28 @@
     {
       "id": "2",
       "step": "02",
-      "title": "Case Assessment",
+      "title": "Assessment",
       "description": "Once your submission is received, our team conducts a thorough preliminary review. We evaluate the details, identify the nature of the case, and determine whether we are the right team to take it on before moving forward.",
       "icon": "ClipboardList"
     },
     {
       "id": "3",
       "step": "03",
-      "title": "Consultation Meeting",
+      "title": "Consultation",
       "description": "You will be contacted to arrange a confidential one-on-one meeting with one of our lead investigators. This is where we ask the deeper questions, align on objectives, and outline the investigative approach best suited to your case.",
       "icon": "Users"
     },
     {
       "id": "4",
       "step": "04",
-      "title": "Investigation & Analysis",
+      "title": "Investigation",
       "description": "Our team gets to work — deploying fieldwork, digital forensics, and intelligence gathering simultaneously. Every lead is pursued, every piece of evidence is examined, and every finding is cross-referenced until the full truth emerges.",
       "icon": "Search"
     },
     {
       "id": "5",
       "step": "05",
-      "title": "Report & Debrief",
+      "title": "Report",
       "description": "We present our findings in a detailed confidential report and personally walk you through every discovery. You leave with complete clarity, documented evidence, and the answers you came to us for.",
       "icon": "FileCheck"
     }
